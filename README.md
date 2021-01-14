@@ -1,11 +1,16 @@
 # cp-log4j-kafka-examples
 
 This Demo shows how to collect logs from custom applications, such as Java applications, SpringBoot applications, KStreams applications or KSQLDB servers.
-Such applications can be managed by a central operations team. In this case, the challenge is simply the collection of log data and forwarding of it to the place where the processing happens. Instead of using a fully managed stack, many teams prefer also a local log-collection, e.g., for MPV projects and PoCs long before an operations team can take over.
 
-For those teams is this reposirtory. 
+Such custom applications can be managed by a central operations team in a big enterprise. 
 
-We use this approach for building an active log analytics pipeline.
+In this case, the challenge is simply to collect log data and forwarding of it to the place where the processing happens. 
+
+Instead of using a fully managed log analysis stack, many teams prefer self managed log-collection, e.g., for MPV projects and PoCs long before an operations team can take over.
+
+For those teams is this repository. 
+
+We use this approach for building an active log analytics pipeline with the Apache Kafka ecosystem.
 
 ## Current state:
 
